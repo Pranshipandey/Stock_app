@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if notice %>
 	<div class='alert alert-success'>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -13,4 +14,21 @@
         </button>
 		<%= alert %>
 	</div>
+=======
+<% if notice %>
+	<div class='alert alert-success'>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+		<%= notice %>
+	</div>
+<% end %>
+<% if alert %>
+	<div class='alert alert-danger'>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+		<%= alert %>
+	</div>
+>>>>>>> a7c8afed9335e05cfe1a83a0739f7bb28963f5b1
 <% end %>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "dependencies": {
     "bootstrap": "4.3.1",
@@ -5,3 +6,12 @@
     "popper.js": "^1.16.1"
   }
 }
+=======
+{
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
+>>>>>>> a7c8afed9335e05cfe1a83a0739f7bb28963f5b1

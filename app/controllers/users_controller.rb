@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 
   def my_portfolio
+<<<<<<< HEAD
     @user = current_user
     @tracked_stocks = current_user.stocks
   end
@@ -36,3 +37,15 @@ class UsersController < ApplicationController
     end
   end
 end
+=======
+    @tracked_stocks = current_user.stocks
+  end
+
+  
+
+  def search
+    render json: params[:friend] 
+  end
+end
+
+>>>>>>> a7c8afed9335e05cfe1a83a0739f7bb28963f5b1

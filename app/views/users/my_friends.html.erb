@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Friends</h1>
 
 <div class='search-area'>
@@ -16,3 +17,23 @@
   <% end %>
 </div>
 
+=======
+<h1>Friends</h1>
+
+<div class='search-area'>
+  <h3>Search Friends</h3>
+  <%= form_tag search_friend_path, remote: true, method: :get do %>
+    <div class="form-group row">
+      <div class="col-sm-9 no-right-padding">
+        <%= text_field_tag :friend, params[:friend], placeholder: "Name or email", autofocus: true, class: "form-control form-control-lg" %>
+      </div>
+      <div class="col-sm-3 no-left-padding">
+        <%= button_tag type: :submit, class: "btn btn-success" do %>
+        
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+>>>>>>> a7c8afed9335e05cfe1a83a0739f7bb28963f5b1
